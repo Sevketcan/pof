@@ -1,6 +1,4 @@
-# 🚀 Welcome to Z.ai Code Scaffold
 
-A modern, production-ready web application scaffold powered by cutting-edge technologies, designed to accelerate your development with [Z.ai](https://chat.z.ai)'s AI-powered coding assistance.
 
 ## ✨ Technology Stack
 
@@ -138,4 +136,4 @@ This scaffold includes a comprehensive set of modern web development tools:
 
 ---
 
-Built with ❤️ for the developer community. Supercharged by [Z.ai](https://chat.z.ai) 🚀
+cd /Users/servketcan/Downloads/pof && (git rev-parse --is-inside-work-tree >/dev/null 2>&1 || git init -b main) && git config user.name "Sevketcan" && git config user.email "dev@users.noreply.github.com" && git add -A && (git diff --cached --quiet || git commit -m "Initial commit") && (git branch --show-current | grep -q main || git checkout -B main) && (git remote set-url origin https://github.com/Sevketcan/pof.git || git remote add origin https://github.com/Sevketcan/pof.git) && git push -u origin main
