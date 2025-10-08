@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "lenis/dist/lenis.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -117,9 +118,7 @@
     @apply border-border outline-ring/50;
   }
   
-  html {
-    scroll-behavior: smooth;
-  }
+  /* Let Lenis control scroll behavior */
   
   body {
     @apply bg-background text-foreground;
@@ -166,14 +165,7 @@
   }
 }
 
-/* Scroll snap sections */
-section {
-  scroll-snap-align: start;
-}
-
-html {
-  scroll-snap-type: y mandatory;
-}
+/* Scroll snap disabled to avoid page-like jumps with Lenis */
 
 /* Enhanced animations */
 @keyframes float {
